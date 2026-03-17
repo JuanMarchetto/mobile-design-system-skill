@@ -44,10 +44,22 @@ mobile-design-system-skill/
 └── .gitignore
 ```
 
-## Installation
+## Install
 
+```
+/plugin marketplace add JuanMarchetto/agent-skills
+/plugin install mobile-design-system@agent-skills
+```
+
+Or via [skills.sh](https://skills.sh):
 ```bash
-npx skills add mobile-design-system-skill
+npx skills add JuanMarchetto/mobile-design-system-skill
+```
+
+Or manually:
+```bash
+git clone https://github.com/JuanMarchetto/mobile-design-system-skill.git
+cp -r mobile-design-system-skill ~/.claude/skills/mobile-design-system
 ```
 
 ## Design Principles at a Glance
