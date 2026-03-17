@@ -174,6 +174,31 @@ This skill includes detailed reference files for deep dives. Load them as needed
 | `references/design-process.md` | Running a mobile design process | 5-step design framework, visual design rules, emotional design, smart UI patterns, implementation notes |
 | `references/industry-conventions.md` | Designing for specific industries | Industry-specific design languages (AI, crypto, finance, health, education, fitness), Peak-End Rule, Spotify strategic principles |
 
+## Example Output
+
+When reviewing a mobile screen, produce findings like this:
+
+```
+Design Review — Login Screen
+
+✅ Touch targets: All buttons meet 44pt minimum
+⚠️ Spacing: 12px gap between form fields → should be 16px (8pt grid)
+❌ Contrast: Secondary text (#999) on white is 2.6:1 → needs 4.5:1 minimum
+✅ Typography: 2 weights, 3 sizes — clean hierarchy
+⚠️ CTA position: "Sign In" is above thumb zone → move to bottom third
+✅ Accessibility: All inputs have labels
+❌ Missing state: No error state for invalid credentials
+✅ Safe area: Properly handled for notch devices
+
+Score: 6.5/10 — 3 fixes needed for production quality
+Priority: contrast fix > CTA position > spacing alignment
+```
+
+## Related Design Skills
+
+- **ios-glass-ui**: For iOS-specific glass material design (translucency, blur, depth)
+- **ui-ux-polish**: For iterative visual polishing of existing UIs toward production quality
+
 ## Quick Checklist
 
 ```
