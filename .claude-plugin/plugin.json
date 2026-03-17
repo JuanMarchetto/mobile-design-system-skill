@@ -1,0 +1,12 @@
+{
+  "name": "mobile-design-system",
+  "version": "1.0.0",
+  "description": "Comprehensive mobile UI/UX design system covering React Native components, touch interactions, gesture patterns, accessibility, app navigation, and visual design principles.",
+  "skills": [
+    {
+      "name": "mobile-design-system",
+      "path": "SKILL.md",
+      "description": "Mobile UI/UX design system with React Native patterns, touch interactions, gestures, accessibility, navigation, and visual design. Triggers: mobile UI, React Native, app design, mobile UX, touch targets, mobile patterns, app screen design."
+    }
+  ]
+}
